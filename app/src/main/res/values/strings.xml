@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Karaoke</string>
+    <string name="main_btn_search_video">search</string>
+    <string name="json_passing_error">Json passing error %s</string>
+    <string name="error_http_json">Couldn\'t get json from server</string>
+    <string name="imageview.screen.description">this is background</string>
+    <string name="textview.text.content">Your avata</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="dialog_title_please_choose">Please choose</string>
+    <string name="view_count">%s lượt xem</string>
+    <string name="video_count">%s +</string>
+    <string name="youtube">Youtube</string>
+    <string-array name="items">
+        <item name="Gallery">Gallery</item>
+        <item name="Camera">Camera</item>
+    </string-array>
+</resources>

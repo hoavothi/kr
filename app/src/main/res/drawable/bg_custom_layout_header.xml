@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="@dimen/stroke.width.custom_linearlayout_image_header"
+        android:color="@color/colorGrayLightLight" />
+    <solid android:color="@color/colorGrayHigh" />
+</shape>

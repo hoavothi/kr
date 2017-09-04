@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ll_height_search"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edtSearchVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="3"
+            android:cursorVisible="true"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@mipmap/ic_search_video"
+            android:drawableStart="@mipmap/ic_search_video"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnSearchVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/main_btn_search_video" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

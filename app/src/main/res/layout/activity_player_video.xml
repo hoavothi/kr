@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context="com.example.hoavo.kotlin.ui.play_video.PlayerVideoActivity">
+
+    <FrameLayout
+        android:id="@+id/flShowPlayVideo"
+        android:layout_width="wrap_content"
+        android:layout_weight="5"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/tvDetailNameVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        tools:text="Name Video" />
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@+id/imgDetailThumbnailVideo"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tvDetailChannelVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgDetailThumbnailVideo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imgDetailThumbnailVideo"
+            android:layout_toRightOf="@+id/imgDetailThumbnailVideo"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            tools:text="Name Channel" />
+
+        <TextView
+            android:id="@+id/tvDetailDayPublish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDetailChannelVideo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@+id/imgDetailThumbnailVideo"
+            android:layout_toRightOf="@+id/imgDetailThumbnailVideo"
+            android:textColor="@color/colorGrayLight"
+            tools:text="Day Publish" />
+
+        <TextView
+            android:id="@+id/tvDetailViewCountVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            tools:text="View Count" />
+
+        <ImageView
+            android:id="@+id/imgDetailLikeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_toLeftOf="@+id/tvDetailLikeView"
+            android:background="@mipmap/ic_like"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tvDetailLikeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/imgDetailDisLikeView"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="10dp"
+            tools:text="234" />
+
+        <ImageView
+            android:id="@+id/imgDetailDisLikeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/tvDetailDisLikeView"
+            android:background="@mipmap/ic_dislike"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/tvDetailDisLikeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="10dp"
+            tools:text="567" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/flShowVideo"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+</LinearLayout>

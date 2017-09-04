@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/llTextFab"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="80dp">
+
+        <ImageView
+            android:id="@+id/imgBtnHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_weight="0.25"
+            android:src="@mipmap/ic_home"
+            android:contentDescription="@null" />
+
+        <ImageView
+            android:id="@+id/imgBtnFile"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@null"
+            android:src="@mipmap/ic_file" />
+
+        <ImageView
+            android:id="@+id/imgBtnRecord"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@null"
+            android:src="@mipmap/ic_record" />
+
+        <ImageView
+            android:id="@+id/imgBtnSearch"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@null"
+            android:src="@mipmap/ic_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTextFab"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="80dp">
+
+        <TextView
+            android:id="@+id/tvHomeFab"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="Home"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tvRecordFab"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="Record"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tvSearchFab"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="Search"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tvFileFab"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:text="File"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</RelativeLayout>

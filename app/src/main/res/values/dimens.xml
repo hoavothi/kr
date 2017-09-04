@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edittext_width_custom">200dp</dimen>
+    <dimen name="ll_height_search">60dp</dimen>
+    <dimen name="edittext_height_custom">35dp</dimen>
+    <dimen name="imageview_width_item_video">130dp</dimen>
+    <dimen name="ll_height_item_video">100dp</dimen>
+    <dimen name="textview_size_title">13dp</dimen>
+    <dimen name="textview_size_description">9dp</dimen>
+    <dimen name="imageview.image.layout_height">150dp</dimen>
+    <dimen name="imageview.avatar.layout_width">80dp</dimen>
+    <dimen name="imageview.avatar.layout_height">80dp</dimen>
+    <dimen name="lineaLayout.image_header.layout_height">180dp</dimen>
+    <dimen name="stroke.width.custom_linearlayout_image_header">1dp</dimen>
+    <dimen name="textview.function.layout_marginLeft">5dp</dimen>
+    <dimen name="textview.border.layout_height">1dp</dimen>
+    <dimen name="relativeLayout.layout_height.item">40dp</dimen>
+    <item name="image.outputx" type="dimen">256</item>
+    <item name="image.outputy" type="dimen">256</item>
+    <item name="image.aspectx" type="dimen">1</item>
+    <item name="image.aspecty" type="dimen">1</item>
+</resources>

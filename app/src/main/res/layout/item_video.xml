@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ll_height_item_video">
+
+    <ImageView
+        android:id="@+id/imgThumbnail"
+        android:layout_width="@dimen/imageview_width_item_video"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvPlaylistQuantity"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/imgThumbnail"
+        android:layout_alignRight="@+id/imgThumbnail"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorBlackTransparent"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:visibility="gone"
+        tools:text="50+" />
+
+    <TextView
+        android:id="@+id/tvDurationVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgThumbnail"
+        android:layout_alignEnd="@+id/imgThumbnail"
+        android:layout_alignRight="@+id/imgThumbnail"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorBlack"
+        android:textColor="@color/colorWhite"
+        android:textSize="10dp"
+        tools:text="23:45" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tvTitleVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textview_size_title" />
+
+        <TextView
+            android:id="@+id/tvChannelVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="11dp" />
+
+        <TextView
+            android:id="@+id/tvQuantityVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/colorGrayLight"
+            android:textSize="@dimen/textview_size_description" />
+    </LinearLayout>
+</RelativeLayout>
