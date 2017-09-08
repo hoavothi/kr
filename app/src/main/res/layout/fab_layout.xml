@@ -20,15 +20,6 @@
             android:contentDescription="@null" />
 
         <ImageView
-            android:id="@+id/imgBtnFile"
-            android:layout_width="0dp"
-            android:visibility="gone"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.25"
-            android:contentDescription="@null"
-            android:src="@mipmap/ic_file" />
-
-        <ImageView
             android:id="@+id/imgBtnRecord"
             android:layout_width="0dp"
             android:visibility="gone"
@@ -45,6 +36,15 @@
             android:layout_weight="0.25"
             android:contentDescription="@null"
             android:src="@mipmap/ic_search" />
+
+        <ImageView
+            android:id="@+id/imgBtnFile"
+            android:layout_width="0dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:contentDescription="@null"
+            android:src="@mipmap/ic_file" />
     </LinearLayout>
 
     <LinearLayout

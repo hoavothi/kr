@@ -13,4 +13,5 @@
     <color name="colorGrayHigh">#EEEEEE</color>
     <color name="colorItemPressed">#706e6e</color>
     <color name="colorItem">#a49f9f</color>
+    <color name="colorGreenLightLight">#c9f1bc</color>
 </resources>

@@ -15,6 +15,7 @@
     <dimen name="textview.function.layout_marginLeft">5dp</dimen>
     <dimen name="textview.border.layout_height">1dp</dimen>
     <dimen name="relativeLayout.layout_height.item">40dp</dimen>
+    <dimen name="height_dialog">400dp</dimen>
     <item name="image.outputx" type="dimen">256</item>
     <item name="image.outputy" type="dimen">256</item>
     <item name="image.aspectx" type="dimen">1</item>

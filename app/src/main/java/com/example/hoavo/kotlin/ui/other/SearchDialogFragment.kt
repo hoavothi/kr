@@ -1,5 +1,6 @@
 package com.example.hoavo.kotlin.ui.other
 
+import android.app.Dialog
 import android.app.DialogFragment
 import android.content.Intent
 import android.os.Bundle
@@ -19,10 +20,12 @@ import kotlinx.android.synthetic.main.fragment_video.view.*
  */
 class SearchDialogFragment : DialogFragment(), OnItemVideoClickListener {
 
-//    companion object {
-//        private val mSearchDialogFragment: SearchDialogFragment by lazy { SearchDialogFragment() }
-//        fun newInstance(): SearchDialogFragment = mSearchDialogFragment
-//    }
+    override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
+        val dialog = Dialog(activity)
+        dialog.setTitle("Your Search")
+        dialog.window.setLayout(ViewGroup.LayoutParams.MATCH_PARENT,resources.getDimensionPixelSize(R.dimen.height_dialog))
+        return dialog
+    }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val v: View? = inflater?.inflate(R.layout.fragment_video, container, false)

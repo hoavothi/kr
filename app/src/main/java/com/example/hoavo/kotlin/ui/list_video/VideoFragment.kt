@@ -29,7 +29,7 @@ class VideoFragment : Fragment(), OnItemVideoClickListener {
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val v: View? = inflater?.inflate(R.layout.fragment_video1, container, false)
+        val v: View? = inflater?.inflate(R.layout.fragment_video, container, false)
         val searchVideo = SearchVideo()
         searchVideo.initSearch(v, this, context)
         v?.btnSearchVideo?.setOnClickListener {
